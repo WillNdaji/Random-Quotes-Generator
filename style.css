@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #900C3F;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    
+    height: 350px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 200px;
+    background-color: rgb(217, 206, 206);
+    border: 1px solid black;
+    border-radius: 3px;
+    position: relative;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    box-shadow: 1px 3px 10px 4px #511f32;
+
+}
+
+.span{
+    background: #900C3F;
+    width: 10px;
+    height: 220px;
+    margin-top: 70px; 
+    margin-left: 15px; 
+    box-shadow: 1px 1px 3px 2px #900C3F;
+
+
+}
+
+.newquote{
+    
+    border: none;
+    color: white;
+    background-color: #900C3F;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: absolute;
+    top: 105px;
+    left: 360px;
+    box-shadow: 1px 1px 2px 1px #900C3F; 
+    
+    
+    
+    
+}
+
+.quotetext{
+    width: 250px;
+    margin-left: 50px;
+    font-size: large;
+    margin-top: 70px;
+    box-shadow: 1px 3px 10px 4px grey;
+    padding: 17px;
+    color: #900C3F;
+}
+
+#auth{
+    margin-left: 140px;
+    font-size: medium;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#quote{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textbox{
+    display: flex;
+   
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .newquote {
+        margin-left: 5%;
+        left: 520px;
+        right: 5%;
+        box-shadow: 1px 1px 2px 1px #900C3F;        
+
+    }
+
+
+
+    .quotetext {
+        width: 90%;
+        margin-right: 150px;
+    
+    }
+
+    .span{
+        position: absolute;
+        left: 20px;
+    }
+}
